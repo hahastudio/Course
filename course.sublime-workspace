@@ -1,0 +1,555 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ask",
+				"ask_play_again"
+			],
+			[
+				"sum_",
+				"sum_player"
+			],
+			[
+				"sum",
+				"sum_dealer"
+			],
+			[
+				"player",
+				"player_win"
+			],
+			[
+				"dealer",
+				"dealer_win"
+			],
+			[
+				"deal",
+				"dealer_decision"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"iter",
+				"itervalues  (function)"
+			],
+			[
+				"Key",
+				"KeyError  (class)"
+			],
+			[
+				"pi",
+				"pi_digits"
+			],
+			[
+				"win",
+				"winsB"
+			],
+			[
+				"wins",
+				"winsA"
+			],
+			[
+				"po",
+				"pointB"
+			],
+			[
+				"re",
+				"recurse_servers"
+			],
+			[
+				"client",
+				"client_transaction_ptr"
+			],
+			[
+				"byte",
+				"byte2int"
+			],
+			[
+				"by",
+				"byte2int"
+			],
+			[
+				"do",
+				"do_dnsanalysis"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"heap",
+				"heapify"
+			],
+			[
+				"un",
+				"undirected"
+			],
+			[
+				"V",
+				"ValueError  (class)"
+			],
+			[
+				"w",
+				"weightVZ"
+			],
+			[
+				"def",
+				"defs	Method"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "course/manage.py",
+			"settings":
+			{
+				"buffer_size": 249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "course/course/settings.py",
+			"settings":
+			{
+				"buffer_size": 5350,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "course/course/urls.py",
+			"settings":
+			{
+				"buffer_size": 556,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "course/course/wsgi.py",
+			"settings":
+			{
+				"buffer_size": 1419,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "course/course/__init__.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"repl",
+				"SublimeREPL: Python"
+			],
+			[
+				"ssc",
+				"Set Syntax: C"
+			],
+			[
+				"sspl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"s s p y",
+				"Set Syntax: Python"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Alanhaha/Documents/project/Course/course.sublime-project",
+		"/Users/Alanhaha/Desktop/gplusautoload.js",
+		"/Users/Alanhaha/Documents/各种课件/OS/hashell.c",
+		"/Users/Alanhaha/Desktop/gist5509275-c00fea5535dc0d60551825bbe2b65d807f7ce736/plot",
+		"/Users/Alanhaha/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/Alanhaha/Library/Rime/meow_emoji.dict.yaml",
+		"/Users/Alanhaha/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Alanhaha/gplus",
+		"/Users/Alanhaha/hosts-ipv4",
+		"/Users/Alanhaha/hostList",
+		"/Users/Alanhaha/getHosts.py",
+		"/Users/Alanhaha/hostsList",
+		"/Users/Alanhaha/untitled.py",
+		"/Users/Alanhaha/hostsByMe",
+		"/Users/Alanhaha/test/test_pow.c",
+		"/Users/Alanhaha/Library/Application Support/Sublime Text 2/Packages/C++/C++.sublime-build",
+		"/Users/Alanhaha/Desktop/hostList",
+		"/Users/Alanhaha/Desktop/getHosts.py",
+		"/Users/Alanhaha/hosts-d",
+		"/Users/Alanhaha/Dropbox/DataStructure/Cpp/list.h",
+		"/Users/Alanhaha/Documents/hashell.c",
+		"/private/etc/hosts",
+		"/Users/Alanhaha/Desktop/1.sql",
+		"/Users/Alanhaha/Desktop/rdns_rework.py",
+		"/Users/Alanhaha/Desktop/rdns.py",
+		"/Users/Alanhaha/Documents/project/Algorithms/hashing.py",
+		"/Users/Alanhaha/Documents/project/Algorithms/rsa.py",
+		"/Users/Alanhaha/Documents/project/Algorithms/modular_arithmetic.py",
+		"/Users/Alanhaha/Documents/project/Algorithms/euclid.py",
+		"/Users/Alanhaha/Documents/project/Algorithms/primality.py",
+		"/Users/Alanhaha/Downloads/clientip4_ptr.csv",
+		"/Users/Alanhaha/Downloads/untitled.py",
+		"/Users/Alanhaha/Desktop/rdns_time.py",
+		"/Users/Alanhaha/Documents/Python/GA/random_letters_probablity.py",
+		"/Users/Alanhaha/Downloads/a_time2.csv",
+		"/Users/Alanhaha/Desktop/pi.py",
+		"/Users/Alanhaha/Documents/project/CodeCafe/code/Client/Client.py",
+		"/Users/Alanhaha/Desktop/Lab02-RecursiveFunction.tex",
+		"/Volumes/夏春林/tennis_2.py",
+		"/Users/Alanhaha/Documents/project/Algorithms/huffman.py",
+		"/Users/Alanhaha/hosts",
+		"/Applications/GoAgentX.app/Contents/Resources/goagent-config-template",
+		"/Users/Alanhaha/hahaStudio/final/Parse/Parse.java",
+		"/Users/Alanhaha/Library/Application Support/Sublime Text 2/Packages/DashDoc/Default (OSX).sublime-keymap",
+		"/Users/Alanhaha/Library/Application Support/Sublime Text 2/Packages/DashDoc/DashDoc.sublime-settings",
+		"/Users/Alanhaha/Library/Rime/meow_emoji.schema.yaml",
+		"/Users/Alanhaha/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Alanhaha/Downloads/goagent-2.0/local/proxy.ini",
+		"/Users/Alanhaha/Desktop/ESWN.py",
+		"/Applications/GoAgentX.app/Contents/Resources/goagent-server/python/app.yaml",
+		"/Applications/GoAgentX.app/Contents/Resources/goagent/proxy.ini",
+		"/Users/Alanhaha/Downloads/meow-emoji-rime-master/meow_emoji.dict.yaml",
+		"/Users/Alanhaha/Downloads/goagent-goagent-670948d/local/proxy.ini",
+		"/Users/Alanhaha/Library/Containers/www.fishlabs.net.gof2mac/Data/Library/Galaxy on Fire 2 Full HD/gof2_save_game_preview_1",
+		"/Users/Alanhaha/Library/Containers/www.fishlabs.net.gof2mac/Data/Library/Galaxy on Fire 2 Full HD/gof2_save_game_1",
+		"/Users/Alanhaha/Library/Containers/www.fishlabs.net.gof2mac/Data/Library/Galaxy on Fire 2 Full HD/gof2_save_game_preview_1.hex",
+		"/Users/Alanhaha/Desktop/edit_distance.py",
+		"/Users/Alanhaha/Dropbox/DataStructure/Cpp/priorityQueue.h",
+		"/Users/Alanhaha/Documents/project/Algorithms/mst.py",
+		"/Users/Alanhaha/Desktop/prim.py",
+		"/Users/Alanhaha/Desktop/huffmanCode.py",
+		"/Users/Alanhaha/Desktop/binary_heap.py",
+		"/Users/Alanhaha/Documents/project/hahastudio.github.com/_config.yml",
+		"/Users/Alanhaha/Documents/project/Algorithms/bfs.py",
+		"/Users/Alanhaha/Documents/project/Algorithms/dfs.py",
+		"/Users/Alanhaha/Desktop/test.py",
+		"/Applications/GoAgentX.app/Contents/Resources/goagent-server/uploader/__main__.py",
+		"/Users/Alanhaha/Downloads/MatLab R2012b 安装密钥和Lincens/License/network.lic",
+		"/Users/Alanhaha/Documents/project/Algorithms/binary_heap.py",
+		"/Users/Alanhaha/Downloads/134658.user.js",
+		"/Users/Alanhaha/Downloads/131500.user.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"en c r y p te d",
+			"plus",
+			"p lu s",
+			"plus",
+			"\\t",
+			"\n	",
+			"[3:]",
+			"[:3]",
+			"\\",
+			"True if dns.op & 0b0000001000000000 else False,",
+			"\\t",
+			"query4",
+			"query",
+			"0000 0800",
+			"makeHuffTree",
+			"	10",
+			"printf"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"[8:]",
+			"[:8]",
+			"",
+			"1 if dns.op & 0b0000001000000000 else 0,",
+			"",
+			"Huffman",
+			""
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "course/manage.py",
+					"settings":
+					{
+						"buffer_size": 249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "course/course/settings.py",
+					"settings":
+					{
+						"buffer_size": 5350,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "course/course/urls.py",
+					"settings":
+					{
+						"buffer_size": 556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "course/course/wsgi.py",
+					"settings":
+					{
+						"buffer_size": 1419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "course/course/__init__.py",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 152.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
