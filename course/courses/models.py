@@ -51,6 +51,9 @@ class Teacher(models.Model):
 	positional_title = models.CharField(max_length=10)
 	school = models.CharField(max_length=20)
 
+	def __unicode__(self):
+		return u"%s %s" % (self.work_id, self.name)
+
 class Student(models.Model):
 	"""docstring for Student"""
 	GENDERS = (
@@ -74,6 +77,9 @@ class Student(models.Model):
 	grade = models.CharField(max_length=2, choices=YEAR_IN_SCHOOL_CHOICES)
 	class_in = models.CharField(max_length=10)
 
+	def __unicode__(self):
+		return u"%s %s %s" % (self.class_in, self.student_id, self.name)
+
 class Course(models.Model):
 	"""docstring for Course"""
 	course_id = models.CharField(max_length=10, primary_key=True)
@@ -83,6 +89,9 @@ class Course(models.Model):
 	least_students = models.PositiveIntegerField()
 	teacher = models.ForeignKey(Teacher)
 	students = models.ManyToManyField(Student)
+
+	def __unicode__(self):
+		return u"%s, %s" % (self.course_id, self.name)
 
 
 
