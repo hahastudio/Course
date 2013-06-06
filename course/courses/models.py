@@ -54,6 +54,9 @@ class Teacher(models.Model):
 	def __unicode__(self):
 		return u"%s %s" % (self.work_id, self.name)
 
+	class META:
+		ordering = ['work_id']
+
 class Student(models.Model):
 	"""docstring for Student"""
 	GENDERS = (
@@ -80,6 +83,9 @@ class Student(models.Model):
 	def __unicode__(self):
 		return u"%s %s %s" % (self.class_in, self.student_id, self.name)
 
+	class META:
+		ordering = ['student_id']
+
 class Course(models.Model):
 	"""docstring for Course"""
 	course_id = models.CharField(max_length=10, primary_key=True)
@@ -92,6 +98,9 @@ class Course(models.Model):
 
 	def __unicode__(self):
 		return u"%s, %s" % (self.course_id, self.name)
+
+	class META:
+		ordering = ['course_id']
 
 
 
