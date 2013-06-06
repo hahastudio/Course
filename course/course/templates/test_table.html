@@ -1,0 +1,28 @@
+<h1>数据库测试</h1>
+<p>
+<table border="1">
+	<tr><th>学号</th><th>班级</th><th>姓名</th></tr>
+	{% for student in student_list %}
+	<tr>
+	<td>{{ student.student_id }}</td>
+	<td>{{ student.class_in }}</td>
+	<td>{{ student.name }}</td>
+	</tr>
+{% endfor %}
+</table>
+</p>
+
+{% for student in student_list %}
+<p>
+<table border="1">
+	<tr><td>学号</td><td>{{ student.student_id }}</td></tr>
+	<tr><td>班级</td><td>{{ student.class_in }}</td></tr>
+	<tr><td>姓名</td><td>{{ student.name }}</td></tr>
+	<tr><td>性别</td><td>{{ student.get_gender_display }}</td></tr>
+	<tr><td>年龄</td><td>{{ student.age }}</td></tr>
+	<tr><td>年级</td><td>{{ student.get_grade_display }}</td></tr>
+	<tr><td>学院</td><td>{{ student.school }}</td></tr>
+	<tr><td>专业</td><td>{{ student.major }}</td></tr>
+</table>
+</p>
+{% endfor %}
