@@ -1,14 +1,12 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html lang="en">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//ZH">
+<html lang="zh">
 <head>
-    <title>{% block title %}{% endblock %}</title>
+    <title>课程管理系统</title>
 </head>
 <body>
-    <h1>My helpful timestamp site</h1>
+    <h1>{% block header %}{% endblock %}</h1>
     {% block content %}{% endblock %}
-    {% block footer %}
     <hr>
-    <p>Thanks for visiting my site.</p>
-    {% endblock %}
+    {% block footer %}{% endblock %}
 </body>
 </html>

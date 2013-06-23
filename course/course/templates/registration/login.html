@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block header %}请登录{% endblock %}
+{% block content %}
+
+  {% if form.errors %}
+    <p class="error">对不起，用户名或密码无效。请重新输入。</p>
+  {% endif %}
+
+  <form action="" method="post">{% csrf_token %}
+    <label for="username">工号/学号：</label>
+    <input type="text" name="username" value="" id="username">
+    <label for="password">密码：</label>
+    <input type="password" name="password" value="" id="password">
+
+    <input type="submit" value="登录" />
+    <input type="hidden" name="next" value="{{ next|escape }}" />
+  </form>
+
+{% endblock %}
