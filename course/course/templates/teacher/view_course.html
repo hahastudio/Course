@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block header %}{{ course_id }} {{ course_name }} 的学生列表{% endblock %}
+
+{% block content %}
+
+  {% if students %}
+  <p>
+    <table border="1">
+		{% for student in students %}
+		<td>{{ student.name }}</td>
+		{% endfor %}
+	</table>
+  </p>
+  {% else %}
+    <p>该门课程目前没有学生选课。</p>
+  {% endif %}
+  <hr>
+  <p><a href="/teacher/edit_course/{{ course_id }}">修改课程信息</a></p>
+
+{% endblock %}

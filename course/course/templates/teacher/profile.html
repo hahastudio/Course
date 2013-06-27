@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block header %}欢迎回来，{{ name }} {% endblock %}
+
+{% block content %}
+
+  {% if courses %}
+  <p>
+    <table border="1">
+		<tr><th>课程代码</th><th>名称</th><th>学分</th><th>授课时间与地点</th><th>学生列表</th></tr>
+		{% for course in courses %}
+		<tr>
+			<td>{{ course.course_id }}</td>
+			<td>{{ course.name }}</td>
+			<td>{{ course.credit }}</td>
+			<td>{% for time in course.times.all %}
+				<p>（{{ time.start_week }}-{{ time.end_week }}周）{{ time.get_repeat_type_display }} {{ time.get_week_display }} {{time.start_time }}-{{ time.end_time }}节 {{ time.address }}</p>
+				{% endfor %}
+			</td>
+			<td><a href="/teacher/view_course/{{ course.course_id }}">查看</a></td>
+		</tr>
+		{% endfor %}
+	</table>
+  </p>
+  {% else %}
+    <p>您目前没有授课。</p>
+  {% endif %}
+  <hr>
+  <p><a href="../create_course">添加课程</a></p>
+
+{% endblock %}

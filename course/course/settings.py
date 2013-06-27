@@ -158,5 +158,4 @@ LOGGING = {
     }
 }
 
-LOGIN_REDIRECT_URL = '/test_table/'
 
